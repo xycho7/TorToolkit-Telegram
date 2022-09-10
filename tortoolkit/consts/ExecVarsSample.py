@@ -36,10 +36,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgresql://postgres:z0JOV76zm8cOogd6vgPr@containers-us-west-88.railway.app:7271/railway"
+        #DB_URI = "postgresql://postgres:z0JOV76zm8cOogd6vgPr@containers-us-west-88.railway.app:7271/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
